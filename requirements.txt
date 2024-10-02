@@ -1,0 +1,4 @@
+
+streamlit
+PyPDF2
+pandas  # Include pandas if you use it in your code
