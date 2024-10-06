@@ -1,1 +1,37 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Streamlit configuration
+.streamlit/config.toml
+
+# Ignore VSCode settings
+.vscode/settings.json
+
+# Ignore GitHub workflows
+.github/workflows/unittests.yml
+
+# Ignore other specific files
+.gitignore
+requirements.txt
+README.md
+notebooks/__init__.py
+notebooks/example.ipynb
+notebooks/README.md
+tests/__init__.py
+app/__init__.py
+app/main.py
+app/utils.py
+scripts/__init__.py
 
